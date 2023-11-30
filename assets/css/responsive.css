@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+ }
+ 
+ a {
+    list-style-type: none;
+ }
+ 
+ body {
+    background: var(--gray-10, #1a1a1a);
+ }
+ 
+ .container {
+    max-width: 100%;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 10px;
+ }
+ 
+ .nav-list {
+    display: flex;
+    padding: 20px by 20px;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    border-bottom: 1px solid var(--gray-15, #262626);
+ 
+    .nav-logo {
+      display: flex;
+ 
+      img {
+        display: flex;
+        width: 100%; 
+        padding-right: 0px;
+        justify-content: center;
+        align-items: center;
+        
+      }
+    }
+ 
+    .nav-link-list {
+      display: flex;
+      flex-direction: column; 
+      align-items: center;
+      text-align: center;
+      padding-left: 0; 
+     
+ 
+     
+    }
+ 
+    .nav-btn {
+      padding-left: 0; 
+ 
+      .contact {
+        padding: 16px by 12px; 
+ 
+        
+      }
+    }
+ }
+ 
+ 
+ 
+ @media (max-width: 767px) {
+   
+   .main-top {
+     padding: 80px 20px; 
+   }
+ 
+   .design {
+     padding: 20px 10px; 
+ 
+     .design-btn {
+       margin-bottom: 30px; 
+     }
+   }
+ 
+   .user {
+     h1 {
+       padding: 30px 20px;/
+     }
+   }
+ 
+   .card-item {
+     ul {
+       .card-list {
+         padding: 20px;
+       }
+     }
+   }
+ }
+
+p {
+    color: var(--grey-90, #e6e6e6);
+    font-family: Barlow;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 30px */
+    letter-spacing: -0.12px;
+  }
+  
+  .engineering,
+  .project,
+  .start-project,
+  .footer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    align-self: stretch;
+    border: 1px solid var(--grey-15, #262626);
+  }
+  
+  h1 {
+    color: var(--absolute-white, #fff);
+    font-family: Barlow;
+    font-size: 48px;
+    padding-top: 150px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  
+
+  @media (max-width: 767px) {
+    p {
+      font-size: 16px;
+      line-height: 150%; 
+    }
+  
+    .engineering,
+    .project,
+    .start-project,
+    .footer {
+      padding: 0px 20px; 
+    }
+  
+    h1 {
+      font-size: 32px;
+      padding-top: 80px; 
+    }
+  
+    .engineering-btn,
+    .project-btn,
+    .start-btn {
+      padding: 12px 14px;
+      font-size: 18px;
+      line-height: normal;
+    }
+  
+    .start-project {
+      padding: 80px 20px;
+    }
+  
+    .footer {
+      .footer-top,
+      .footer-bottom {
+        padding: 20px 10px; 
+      }
+    }
+  }
+   
